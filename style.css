@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a:hover {
+	 color: goldenrod
+}
+h1 {
+	position: relative;
+	padding-top: 56.25%;
+	background-image: url(https://static01.nyt.com/images/2019/02/05/world/05egg/15xp-egg-promo-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale);
+	background-size: contain;
+	background-position: center;
+}
+h1:hover {
+	padding-top: 56.25%;
+	background-image: url();
+	background-color: goldenrod;
+}
+h1 iframe {
+	border: 0px;
+	opacity: 0;
+}
+iframe:hover {
+	opacity: 1;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	mix-blend-mode: multiply;
+}
