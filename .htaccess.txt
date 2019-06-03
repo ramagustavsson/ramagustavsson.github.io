@@ -1,1 +1,0 @@
-AuthUserFile .htpasswd.txt AuthName “enter your creds” AuthType Basic  require valid-user
