@@ -1,1 +1,1 @@
-AuthUserFile /Users/Anders/Documents/GitHub/ramagustavsson.github.io/.htpasswd AuthName “enter your creds” AuthType Basic  require valid-user
+AuthUserFile .htaccess.txt AuthName “enter your creds” AuthType Basic  require valid-user
