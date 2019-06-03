@@ -1,22 +1,49 @@
 @charset "UTF-8";
 /* CSS Document */
 
-a:hover {
-	 color: goldenrod
+body {
+	font-family: 'Century Schoolbook L';
+	background-image: url(https://i.imgur.com/appqdMQ.jpg);
+	background-size: cover;
 }
-h1 {
+
+h1, nav {
+	color: goldenrod;
+	mix-blend-mode: color-dodge;
+}
+
+li {
+	list-style: none;
+}
+
+nav, nav a:visited, nav a {
+	color: goldenrod;
+	font-size: 15px;
+	font-style: oblique;
+	font-weight: 10;
+}
+
+a:hover {
+	 color: goldenrod;
+}
+
+a {
+	color: aliceblue;
+}
+
+h6 {
 	position: relative;
 	padding-top: 56.25%;
 	background-image: url(https://static01.nyt.com/images/2019/02/05/world/05egg/15xp-egg-promo-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale);
 	background-size: contain;
 	background-position: center;
 }
-h1:hover {
+h6:hover {
 	padding-top: 56.25%;
 	background-image: url();
 	background-color: goldenrod;
 }
-h1 iframe {
+h6 iframe {
 	border: 0px;
 	opacity: 0;
 }
