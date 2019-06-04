@@ -12,6 +12,11 @@ h1, nav {
 	mix-blend-mode: color-dodge;
 }
 
+h1 a, h1 a:visited, h1 a:hover {
+	color: goldenrod;
+	text-decoration: none;
+}
+
 li {
 	list-style: none;
 }
@@ -34,10 +39,35 @@ a {
 h6 {
 	position: relative;
 	padding-top: 56.25%;
-	background-image: url(https://static01.nyt.com/images/2019/02/05/world/05egg/15xp-egg-promo-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale);
+	background-image: url(https://www.channelnewsasia.com/blueprint/servlet/image/11123512/16x9/1400/840/b161d951362e0dd032326dbce10f0a68/FW/egg-kylie-jenner-instagram.jpg);
 	background-size: contain;
 	background-position: center;
 }
+
+h5 iframe {
+	border: 0px;
+}
+
+img {
+  	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+	width: auto;
+	border: 5px solid #fff;
+	position: relative;
+	width: 50%;
+	height: 50%;
+}
+
+h5 {
+	background-image: url();
+	background-color: goldenrod;
+	width: 350px;
+	height: 442px;
+	background-position: center;
+	margin: auto;
+}
+
 h6:hover {
 	padding-top: 56.25%;
 	background-image: url();
@@ -47,7 +77,18 @@ h6 iframe {
 	border: 0px;
 	opacity: 0;
 }
-iframe:hover {
+
+p, h2 {
+	color: white;
+	text-align: center;
+	text-shadow: 0px 0px 5px #000;
+}
+
+h2 {
+	font-weight: bolder;
+}
+
+h5 iframe:hover, h6 iframe:hover {
 	opacity: 1;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
