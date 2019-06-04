@@ -96,6 +96,7 @@ p, h2, h3, h4 {
 	background-color: rgba(0,0,0,0.65);
 	margin-left: 100px;
 	margin-right: 100px;
+	max-width: 1000px;
 }
 
 h2 {
