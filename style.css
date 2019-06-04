@@ -78,10 +78,24 @@ h6 iframe {
 	opacity: 0;
 }
 
-p, h2 {
+p, h2, h3, h4 {
 	color: white;
 	text-align: center;
 	text-shadow: 0px 0px 5px #000;
+}
+
+#blocktext {
+	text-align: left;
+	text-shadow: none;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#bio {
+	background-color: rgba(0,0,0,0.65);
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 h2 {
@@ -93,4 +107,9 @@ h5 iframe:hover, h6 iframe:hover {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	mix-blend-mode: multiply;
+}
+
+#module {
+	text-align: center;
+	color: rgba(161,161,161,1.00);
 }
