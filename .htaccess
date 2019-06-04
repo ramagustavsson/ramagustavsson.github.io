@@ -1,0 +1,1 @@
+AuthUserFile http://ramagustavsson.github.io/.htpasswd AuthName “enter your creds” AuthType Basic  require valid-user
