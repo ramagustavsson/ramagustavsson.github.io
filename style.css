@@ -63,7 +63,7 @@ h5 {
 	background-image: url();
 	background-color: goldenrod;
 	width: 350px;
-	height: 442px;
+	height: 100%;
 	background-position: center;
 	margin: auto;
 }
